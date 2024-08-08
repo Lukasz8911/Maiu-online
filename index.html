@@ -10,49 +10,55 @@
     <nav>
       <img src="logo.png" class="logo" />
       <ul class="nav">
-        <li class="home">Home</li>
-        <li class="about">About</li>
-        <li class="classes">Classes</li>
-        <li class="gallery">Gallery</li>
+        <li class="home"><a href="#home">Home</a></li>
+        <li class="about"><a href="#about">About</a></li>
+        <li class="classes"><a href="#classes">Classes</a></li>
+        <li class="gallery"><a href="#gallery">Gallery</a></li>
       </ul>
     </nav>
-  
+
     <main>
       <div id="home">
         <h2>Home</h2>
-            <section class="tryasguest">
-                <h3>Try as a guest!</h3>    
-            </section>
-            <section class="user">
-                <div class="user-login">
-                
-                <button>Play!</button>
-                <br />
-                <p>Current user</p>
-                <label for="uname"><b>Username</b></b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
+        <div class="tryasguest">
+          <h3>Try as a guest!</h3>
+          <button>Play!</button>
+        </div>
+        <div class="changelog"></div>
+        <label for="changelogarea"><b>Changelog:</b></label
+        ><br />
+        <input type="text" id="changelogarea" name="changelogarea" />
+      </div>
 
-                <br><label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter password" name="psw" required>
+      <div id="about">
+        <h2>About</h2>
+        <p>
+          An ambitious indie MMORPG built from scratch by an up-and-coming
+          developer, this game offers a classic RPG experience where you can
+          create unique characters, embark on epic quests, and battle hordes of
+          monsters to gain experience and level up. With a focus on both PvE and
+          PvP, players can test their skills against challenging enemies or face
+          off against each other in intense combat. Despite being a passion
+          project from a programmer with limited experience, the game promises a
+          rich and engaging world filled with adventure and endless
+          possibilities.
+        </p>
+      </div>
 
-                <br><button type="submit">Login</button>
-                <label>
-                    <input type="checkbox" checked="checked" name="remember">Remember me
-                </label>
-                </div>
-            </section>
-            <section class="create-account">
-                <h3>Create account:</h3>
-                <p>Please fill  in this form to create an account.</p>
-                <br><label for="email"><b>Email</b></label>
-                <input type="text" placeholder="Enter Email" name="email" required>
-                <label></label>
+      <div id="classes">
+        <h2>Classes</h2>
+        <h3>Knight</h3>
+        <img src="knight.png" />
+        <h3>Wizard</h3>
+        <img src="wizard.png" />
+        <h3>Archer</h3>
+        <img src="archer.png" />
+      </div>
 
-
-                
-
-             </section>
-
+      <div id="gallery">
+        <h2>Gallery</h2>
+        <img src="screen1.png" />
+        <img src="screen2.png" />
       </div>
     </main>
   </body>

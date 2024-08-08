@@ -1,7 +1,7 @@
 body {
   justify-content: center;
   align-items: center;
-  background-color: bisque;
+  background-color: rgb(53, 36, 15);
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -22,6 +22,25 @@ li a {
   color: inherit;
 }
 
+#home h2 {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+#about h2 {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+#classes h2 {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+#gallery h2 {
+  font-size: 30px;
+  text-decoration: underline;
+}
 .logo {
   display: block;
   justify-content: center;
@@ -31,10 +50,10 @@ li a {
 }
 
 .home {
-  border: 1.5px brown solid;
+  border: 1.5px black solid;
   border-radius: 20%;
-  padding: 5px 25px;
-  background-color: azure;
+  padding: 5px 45px;
+  background-color: darkolivegreen;
   color: black;
   transition: background-color 0.5s, color 0.5s;
   box-shadow: 0 0 15px grey;
@@ -42,15 +61,15 @@ li a {
 }
 
 .home:hover {
-  background-color: brown;
+  background-color: black;
   color: white;
 }
 
 .about {
-  border: 1.5px brown solid;
+  border: 1.5px black solid;
   border-radius: 20%;
-  padding: 5px 25px;
-  background-color: azure;
+  padding: 5px 45px;
+  background-color: darkolivegreen;
   color: black;
   transition: background-color 0.5s, color 0.5s;
   box-shadow: 0 0 15px grey;
@@ -58,15 +77,15 @@ li a {
 }
 
 .about:hover {
-  background-color: brown;
+  background-color: black;
   color: white;
 }
 
 .classes {
-  border: 1.5px brown solid;
+  border: 1.5px black solid;
   border-radius: 20%;
-  padding: 5px 25px;
-  background-color: azure;
+  padding: 5px 45px;
+  background-color: darkolivegreen;
   color: black;
   transition: background-color 0.5s, color 0.5s;
   box-shadow: 0 0 15px grey;
@@ -74,15 +93,15 @@ li a {
 }
 
 .classes:hover {
-  background-color: brown;
+  background-color: black;
   color: white;
 }
 
 .gallery {
-  border: 1.5px brown solid;
+  border: 1.5px black solid;
   border-radius: 15%;
-  padding: 5px 25px;
-  background-color: azure;
+  padding: 5px 45px;
+  background-color: darkolivegreen;
   color: black;
   transition: background-color 0.5s, color 0.5s;
   box-shadow: 0 0 15px grey;
@@ -90,7 +109,7 @@ li a {
 }
 
 .gallery:hover {
-  background-color: brown;
+  background-color: black;
   color: white;
 }
 #home {

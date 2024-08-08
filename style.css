@@ -133,6 +133,22 @@ li a {
   max-height: 200px;
 }
 
+#classes h2 {
+  text-align: center;
+}
+
+.knight {
+  display: flex;
+}
+
+.wizard {
+  display: flex;
+}
+
+.archer {
+  display: flex;
+}
+
 #gallery {
   background-color: aliceblue;
   padding: 10px 40px 40px 40px;
@@ -141,4 +157,14 @@ li a {
 #gallery img {
   max-width: 700px;
   max-height: 700px;
+}
+
+#gallery h2 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
 }

@@ -18,17 +18,31 @@
     </nav>
 
     <main>
-      <div id="home">
-        <h2>Home</h2>
-        <div class="tryasguest">
-          <h3>Try as a guest!</h3>
-          <button>Play!</button>
-        </div>
-        <div class="changelog"></div>
-        <label for="changelogarea"><b>Changelog:</b></label
-        ><br />
-        <input type="text" id="changelogarea" name="changelogarea" />
-      </div>
+        <div id="home">
+          <h2>Home</h2>
+          <table>
+            <thead>
+              <th>Try as a guest!</th>
+              <th>Changelog</th>
+            </thead>
+            <tbody>
+          <td>
+            <div class="tryasguest">
+              
+              <button>Play!</button>
+            </div>
+          </td>
+           <td>
+            <strong>Recent updates:</strong><br/>
+            17-08-2024:<br/>
+            <ul>
+            <li>Added equipment for players</li>
+            <li>AI of monsters fixed</li>
+            <li>Chat updates</li>
+          </ul>
+          </td>
+        </tbody>
+        </table>
 
       <div id="about">
         <h2>About</h2>
@@ -49,44 +63,125 @@
         <h2>Classes</h2>
         <h3>Knight</h3>
         <div class="knight">
-          <img src="knight.png" />
-          <aside>
-            <ul>
-              <b>Spells:</b>
-              <li>Mortal Punch</li>
-              <li>Whirlwind</li>
-              <li>Slash</li>
-            </ul>
-          </aside>
-        </div>
+        
+        <img src="./images/knight.png" />
+        <aside>
+        <table class="abilities-knight">
+          <thead>
+            <th colspan="2">Spells:</th>
+            
+          </thead>
+          <tbody>
+            <tr>
+              <td>Attack</td>
+              <td>Attacks with a weapon.</td>
+            </tr>
+            <tr>
+              <td>Bloody slash</td>
+              <td>Hits all enemies in front of the caster.</td>
+            </tr>
+            <tr>
+              <td>Twisting slash</td>
+              <td>Slashes enemies around the caster.</td>
+            </tr>
+            <tr>
+              <td>Mortal punch</td>
+              <td>Punches enemy in the face. Very strong attack.</td>
+            </tr>
+
+          </tbody>
+        </table>
+      </aside>
+    </div>
+     
         <h3>Wizard</h3>
         <div class="wizard">
-          <img src="wizard.png" />
+          <img src="./images/wizard.png" />
           <aside>
-            <ul>
-              <b>Spells:</b>
-              <li>Blizzard</li>
-              <li>Frozen Arrow</li>
-            </ul>
+            <table class="abilities-wizard">
+              <thead>
+                <th colspan="2">Spells:</th>
+                
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Attack</td>
+                  <td>Attacks with a weapon.</td>
+                </tr>
+                <tr>
+                  <td>Magic arrow</td>
+                  <td>Shots magic arrow.</td>
+                </tr>
+                <tr>
+                  <td>Magic ball</td>
+                  <td>Casts magic ball which is following target.</td>
+                </tr>
+                <tr>
+                  <td>Ice storm</td>
+                  <td>Casts ice storm around the casting point.</td>
+                </tr>
+                <tr>
+                  <td>Fire ground</td>
+                  <td>Burns earth around the caster.</td>
+                </tr>
+                <tr>
+                  <td>Fire ball</td>
+                  <td>Fires fire ball. If it hits target it explodes doing aoe damage.</td>
+                </tr>
+    
+              </tbody>
+            </table>
           </aside>
         </div>
         <h3>Archer</h3>
         <div class="archer">
-          <img src="archer.png" />
+          <img src="./images/archer.png" />
           <aside>
-            <ul>
-              <b>Spells:</b>
-              <li>Poison Arrow</li>
-              <li>Aimed shot</li>
-            </ul>
+            <table class="abilities-archer">
+              <thead>
+                <th colspan="2">Spells:</th>
+                
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Attack</td>
+                  <td>Attacks with a weapon.</td>
+                </tr>
+                <tr>
+                  <td>Penetration shot</td>
+                  <td>Shots penetrating arrow.</td>
+                </tr>
+                <tr>
+                  <td>Triple shot</td>
+                  <td>Shots three arrows.</td>
+                </tr>
+                <tr>
+                  <td>Ice arrow</td>
+                  <td>Shots freezing arrow.</td>
+                </tr>
+                <tr>
+                  <td>Poison arrow</td>
+                  <td>Shots poisoned arrow and create aoe dot effect on the ground.</td>
+                </tr>
+              </tbody>
+            </table>
           </aside>
         </div>
       </div>
 
       <div id="gallery">
         <h2>Gallery</h2>
-        <center><img src="screen1.png" /></center>
-        <center><img src="screen2.png" /></center>
+        <h3 class="general">General look:</h3>
+        <center><img src="./images/screen1.png" /></center>
+        <center><img src="./images/screen2.png" /></center>
+        
+        <center><img src="./images/screen3.png" /></center>
+        <h3>Smoking hot NPC:</h3>
+        <center><img src="./images/sigrid.png" /></center>
+        <h3 class="monsters">Monsters:</h3>
+        <center><img src="./images/screen4.png" /></center>
+        <center><img src="./images/screen5.png" /></center>
+        <center><img src="./images/screen6.png" /></center>
       </div>
       <footer>&copy All rights reserved</footer>
     </main>

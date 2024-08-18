@@ -15,11 +15,20 @@ body {
   margin: 30px 0;
   width: 100%;
   padding: 0;
+  font-family: monospace;
 }
 
 li a {
   text-decoration: none;
   color: inherit;
+}
+
+#home {
+  background-color: grey;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 0px;
+  height: 350px;
 }
 
 #home h2 {
@@ -38,10 +47,72 @@ li a {
   background-color: darkgray;
 }
 
-#home li {
-  padding-left: 100px;
-  text-align: left;
+#news {
+  background-color: grey;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 0px;
+  height: 350px;
+  margin: auto;
+  width: 1000px;
+}
+
+#news table {
+  margin: 70px auto;
+  width: 350px;
+}
+
+#news h2 {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+#news th {
+  font-size: 20px;
+  border: 2px solid black;
+  width: 500px;
+  background-color: brown;
+}
+
+#news td {
+  background-color: darkgray;
+}
+
+#news li {
   list-style: none;
+}
+
+#wiki {
+  background-color: grey;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 0px;
+  height: 350px;
+  margin: auto;
+  width: 1000px;
+}
+
+#wiki p {
+  margin: 120px auto;
+  font-size: 20px;
+  border: 2px black double;
+  width: 350px;
+  padding: 5px;
+  font-family: monospace;
+  background-color: beige;
+}
+
+#wiki h2 {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+#about {
+  background-color: grey;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 0px;
+  height: 350px;
 }
 
 #about h2 {
@@ -49,7 +120,26 @@ li a {
   text-decoration: underline;
 }
 
+#about p {
+  text-align: justify;
+  margin: auto 150px;
+  font-family: monospace, "courier new", sans-serif;
+}
+
 #classes h2 {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+#gallery {
+  background-color: grey;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 0px;
+  height: auto;
+}
+
+#gallery h2 {
   font-size: 30px;
   text-decoration: underline;
 }
@@ -58,6 +148,11 @@ li a {
   font-size: 30px;
   text-decoration: underline;
 }
+
+#gallery img {
+  max-width: 600px;
+}
+
 .logo {
   display: block;
   justify-content: center;
@@ -82,6 +177,37 @@ li a {
   color: white;
 }
 
+.news {
+  border: 1.5px black solid;
+  border-radius: 20%;
+  padding: 5px 45px;
+  background-color: darkolivegreen;
+  color: black;
+  transition: background-color 0.5s, color 0.5s;
+  box-shadow: 0 0 15px grey;
+  font-size: 20px;
+}
+
+.news:hover {
+  background-color: black;
+  color: white;
+}
+
+.wiki {
+  border: 1.5px black solid;
+  border-radius: 20%;
+  padding: 5px 45px;
+  background-color: darkolivegreen;
+  color: black;
+  transition: background-color 0.5s, color 0.5s;
+  box-shadow: 0 0 15px grey;
+  font-size: 20px;
+}
+
+.wiki:hover {
+  background-color: black;
+  color: white;
+}
 .about {
   border: 1.5px black solid;
   border-radius: 20%;
@@ -129,12 +255,6 @@ li a {
   background-color: black;
   color: white;
 }
-#home {
-  background-color: grey;
-  justify-content: center;
-  text-align: center;
-  padding: 10px 0px;
-}
 
 .tryasguest {
   width: 500px;
@@ -155,21 +275,19 @@ button:hover {
   border-radius: 20px;
 }
 
+button a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 400;
+  font-size: 40px;
+}
+
 #changelogarea {
   width: 300px;
   height: 150px;
   margin: 20px 0;
-}
-
-#about {
-  background-color: beige;
-  text-align: justify;
-  width: 920px;
-  padding: 10px 40px 40px 40px;
-}
-#about h2 {
-  text-align: center;
-  width: 920px;
 }
 
 #classes {
@@ -196,20 +314,6 @@ button:hover {
 
 .archer {
   display: flex;
-}
-
-#gallery {
-  background-color: beige;
-  padding: 10px 40px 40px 40px;
-}
-
-#gallery img {
-  max-width: 700px;
-  max-height: 700px;
-}
-
-#gallery h2 {
-  text-align: center;
 }
 
 footer {
@@ -297,4 +401,12 @@ footer {
   margin-left: 10px;
   padding: 5px;
   width: 550px;
+}
+
+#gallery h3 {
+  background-color: aqua;
+  width: 200px;
+  margin: 20px auto;
+  padding: 5px;
+  border-radius: 10%;
 }

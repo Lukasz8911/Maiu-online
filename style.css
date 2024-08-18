@@ -18,6 +18,11 @@ body {
   font-family: monospace;
 }
 
+.nav button {
+  background-color: rgb(53, 36, 15);
+  border-radius: 20%;
+}
+
 li a {
   text-decoration: none;
   color: inherit;
@@ -262,7 +267,7 @@ li a {
   float: left;
 }
 
-button {
+.play-button {
   size: 50px;
   font-size: 35px;
   border-radius: 20px;
@@ -270,12 +275,12 @@ button {
   margin-top: 50px;
 }
 
-button:hover {
+.play-button:hover {
   background-color: chartreuse;
   border-radius: 20px;
 }
 
-button a {
+.play-button a {
   text-decoration: none;
   color: black;
   text-transform: uppercase;

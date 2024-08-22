@@ -2,7 +2,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgb(53, 36, 15);
-  width: 1000px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -33,7 +33,7 @@ li a {
   justify-content: center;
   text-align: center;
   padding: 10px 0px;
-  height: 350px;
+  height: 500px;
 }
 
 #home h2 {
@@ -44,7 +44,7 @@ li a {
 #home th {
   font-size: 20px;
   border: 2px solid black;
-  width: 500px;
+  width: 50%;
   background-color: brown;
 }
 
@@ -57,14 +57,14 @@ li a {
   justify-content: center;
   text-align: center;
   padding: 10px 0px;
-  height: 350px;
+  height: 500px;
   margin: auto;
-  width: 1000px;
+  width: 100%;
 }
 
 #news table {
   margin: 70px auto;
-  width: 350px;
+  width: 50%;
 }
 
 #news h2 {
@@ -92,9 +92,9 @@ li a {
   justify-content: center;
   text-align: center;
   padding: 10px 0px;
-  height: 350px;
+  height: 500px;
   margin: auto;
-  width: 1000px;
+  width: 100;
 }
 
 #wiki p {
@@ -107,7 +107,7 @@ li a {
   background-color: beige;
 }
 
-#wiki h2 {
+#wiki h2 {%
   font-size: 30px;
   text-decoration: underline;
 }
@@ -117,7 +117,7 @@ li a {
   justify-content: center;
   text-align: center;
   padding: 10px 0px;
-  height: 350px;
+  height: 500px;
 }
 
 #about h2 {
@@ -229,6 +229,22 @@ li a {
   color: white;
 }
 
+.rankings {
+  border: 1.5px black solid;
+  border-radius: 20%;
+  padding: 5px 45px;
+  background-color: darkolivegreen;
+  color: black;
+  transition: background-color 0.5s, color 0.5s;
+  box-shadow: 0 0 15px grey;
+  font-size: 20px;
+}
+
+.ranings:hover {
+  background-color: black;
+  color: white;
+}
+
 .classes {
   border: 1.5px black solid;
   border-radius: 20%;
@@ -262,9 +278,14 @@ li a {
 }
 
 .tryasguest {
-  width: 500px;
+  margin: 10px auto;
   height: 200px;
-  float: left;
+  
+}
+
+#home table {
+  width: 80%;
+  margin: 20px auto;
 }
 
 .play-button {
@@ -289,11 +310,6 @@ li a {
   font-size: 40px;
 }
 
-#changelogarea {
-  width: 300px;
-  height: 150px;
-  margin: 20px 0;
-}
 
 #classes {
   background-color: grey;

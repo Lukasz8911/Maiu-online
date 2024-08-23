@@ -180,6 +180,15 @@ li a {
 .home:hover, .news:hover, .wiki:hover, .about:hover, .rankings:hover, .classes:hover, .gallery:hover {
   background-color: black;
   color: white;
+  cursor: pointer;
+  }
+
+.home:active, .news:active, .wiki:active, .about:active, .rankings:active, .classes:active, .gallery:active {
+  background-color: grey;
+  color: black;
+  cursor:pointer;
+  font-size: 18px;
+  transition: font-size .1s;
 }
 
 
@@ -200,11 +209,18 @@ li a {
   border-radius: 20px;
   padding: 20px 50px;
   margin-top: 50px;
+  cursor:pointer;
 }
 
 .play-button:hover {
   background-color: chartreuse;
   border-radius: 20px;
+}
+
+.play-button:active {
+  background-color: chartreuse;
+  border-radius: 20px;
+  color: white;
 }
 
 .play-button a {
